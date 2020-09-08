@@ -1,0 +1,11 @@
+
+Interface Segregation Principle (ISP):
+says that no client should be forced to depend on method it does not use.
+Split the big interface into smaller interfcaes to decide which interface should use and doesn't.
+
+Problem : Xerox created the printer with facilities stapling,fax,photocopy,print.
+			Now bcoz everything in one big class so everything needs to be called if u want to use one func.
+			
+Open Closed Principle (OCP):
+software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification";
+ that is, such an entity can allow its behaviour to be extended without modifying its source code.			
